@@ -30,6 +30,7 @@
     {
         self.backgroundColor= [UIColor colorWithRed:173/255.0 green:217/255.0 blue:230/255.0 alpha:1];
         _dataArray = dataArray;
+        
     }
     return self;
 }
@@ -40,7 +41,7 @@
     _graphPath.lineWidth=2;
     
     _graphLayer = [CAShapeLayer layer];
-    [_graphLayer setStrokeColor:[UIColor redColor].CGColor];
+    [_graphLayer setStrokeColor:[UIColor greenColor].CGColor];
     _graphLayer.fillColor = [UIColor clearColor].CGColor;
     _graphLayer.lineWidth=2;
     _graphLayer.path = _graphPath.CGPath;
